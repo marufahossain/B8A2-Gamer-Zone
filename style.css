@@ -4,7 +4,7 @@
 }
 
 .nav-container{
-   max-width: 90%;
+   max-width: 80%;
    margin: auto;
    display: flex;
    align-items: center;
@@ -58,3 +58,123 @@
  .nav-link{text-decoration: none;}
 
  .follow-icon {width:30px;}
+
+.banner-section {background: #FFF;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+   background-image: url(./images/banner\ bg.png);
+   background-size: 50%;
+   background-position: left;
+   background-repeat: no-repeat;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-title{
+    color: #0B0223;
+font-size: 35px;
+font-weight: 600;
+text-transform: uppercase;
+line-height: normal;
+margin:0;
+}
+.banner-desc{
+font-size: 75px;
+font-weight: 800;
+line-height: normal;
+margin:0;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.container {
+   max-width: 80%;
+   margin: auto;
+}
+.banner-text {
+   max-width: 50%;
+   
+}
+.banner-icon{
+   display: flex;
+   color: #534C64;
+text-align: center;
+font-size: 15px;
+font-weight: 500;
+}
+.btn-primary{
+   border-radius: 48px;
+   background: #FF42A5;
+   color: #FFF;
+   font-size: 15px;
+   align-items: center;
+   border: 0px;
+   padding: 15px 20px;
+   gap: 10px;
+}
+.btn-2{
+   border-radius: 48px;
+   background: #4EC5F7;
+   color: #FFF;
+   font-size: 15px;
+   align-items: center;
+   border: 0px;
+   padding: 15px 20px;
+   gap: 10px;
+}
+.banner-image-wrapper {
+   max-width: 50%;
+}
+.width-100 {width: 100%;}
+.gamer-section{
+   display: flex;
+}
+.gamer-title{
+   text-align: right;
+   font-size: 20px;
+   font-weight: 600;
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.gamer-desc{
+   color: #534C64;
+   text-align: right;
+   font-size: 18px;
+   font-weight: 400;
+
+}
+.gamer-purpose{
+   color: #534C64;
+text-align: right;
+font-size: 24px;
+font-weight: 500;
+line-height: 45px; /* 187.5% */
+}
+.gamer-unleash{
+   color: #534C64;
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 20px;
+}
+
+
+
+
+
+
+
+ @media screen and (max-width:425px) {
+   .nav-container, .items-container, .items-container ul {
+    flex-direction: column;
+}
+
+
+    
+ }
