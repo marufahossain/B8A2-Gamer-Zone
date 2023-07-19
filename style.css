@@ -105,6 +105,8 @@ background-clip: text;
 text-align: center;
 font-size: 15px;
 font-weight: 500;
+align-items: center;
+gap: 5px;
 }
 .btn-primary{
    border-radius: 48px;
@@ -132,10 +134,21 @@ font-weight: 500;
 .width-100 {width: 100%;}
 .gamer-section{
    display: flex;
+   justify-content: space-between;
 }
+
+.gamer-img-wrapper{width: 60%;}
+.gamer-text-wrapper{
+   max-width: 35%;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+
 .gamer-title{
    text-align: right;
-   font-size: 20px;
+   font-size: 35px;
+   margin: 0;
    font-weight: 600;
    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
@@ -200,8 +213,21 @@ line-height: normal;
    font-weight: 400;
    line-height: 30px; /* 166.667% */
 }
-
-
+.games-play{
+   display: flex;
+}
+.games-image{
+   margin-left: 90px;
+   max-width: 70%;
+   height: 70%;
+}
+.image-rectangle{
+   border-radius: 8px;
+border: 10px solid #FFF;
+background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    position: relative;
+    bottom: 100px;
+}
 
 
 
