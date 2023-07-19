@@ -228,8 +228,17 @@ background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repe
     position: relative;
     bottom: 100px;
 }
-
-
+.games-rectangle{
+   align-items: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+.games-optional{
+   display: flex;
+}
 
  @media screen and (max-width:425px) {
    .nav-container, .items-container, .items-container ul {
