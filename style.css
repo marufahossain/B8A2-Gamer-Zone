@@ -248,6 +248,33 @@ line-height: 60px; /* 125% */
 .games-items{
    display: flex;
 }
+.footer-section{
+   background: #0B0223;
+ 
+}
+.logo-container{
+   justify-content: center;
+}
+.footer-text{
+   color: #FFF;
+}
+.footer-list-items > ul{
+   display: flex;
+   list-style: none;
+   gap: 30px;
+   color: #FFF;
+   justify-content: center;
+}
+.footer-icon{
+   
+}
+.footer-another-list > ul{
+   display: flex;
+   list-style: none;
+   gap: 20px;
+   color: #FFF;
+   justify-content: center;
+}
 
 
 
