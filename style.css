@@ -239,6 +239,20 @@ line-height: 60px; /* 125% */
 .games-optional{
    display: flex;
 }
+.games-list{
+   display: flex;
+}
+.games-items-1, .games-items-2, .games-items-3, .games-items-4, .games-items-5, .games-items-6, .games-items-7, .games-items-8, .games-items-9{
+   display: flex;
+}
+.games-items{
+   display: flex;
+}
+
+
+
+
+
 
  @media screen and (max-width:425px) {
    .nav-container, .items-container, .items-container ul {
