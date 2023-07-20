@@ -378,7 +378,7 @@ max-width: 30%;
 .game-items-bg { 
    background: #FF42A5;
    margin-top: 60px;
-   background-image: url(/images/Vector\ 2.png);
+   background-image: url(./images/Vector\ 2.png);
    background-position: right;
    background-size: 50%;
    background-repeat: no-repeat;
