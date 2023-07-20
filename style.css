@@ -389,6 +389,13 @@ max-width: 30%;
    padding-bottom: 60px;
  
 }
+.footer-flex {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
 .logo-container{
    justify-content: center;
 }
@@ -396,6 +403,7 @@ max-width: 30%;
    color: #FFF;
    text-decoration: none;
 }
+
 .footer-list-items > ul{
    display: flex;
    list-style: none;
@@ -405,7 +413,7 @@ max-width: 30%;
 }
 .footer-icon{
    display: flex;
-   gap: 30px;
+   gap: 60px;
    align-items: center;
    justify-content: center;
    margin-top: 50px;
@@ -426,6 +434,8 @@ max-width: 30%;
    color: #F948B2;
 }
 .game-item-image{ width: 40%;}
+
+
 @media screen and (max-width:768px) {
    .banner {flex-direction: column-reverse;
       gap: 40px ;} 
