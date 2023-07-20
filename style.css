@@ -70,9 +70,9 @@
 .banner{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
 }
+
 .banner-title{
     color: #0B0223;
 font-size: 35px;
@@ -127,6 +127,7 @@ gap: 5px;
    padding: 15px 20px;
    gap: 10px;
 }
+.width40px {width: 40px;}
 .btn-3{
    border-radius: 48px;
    background: #fff;
@@ -420,7 +421,43 @@ max-width: 30%;
    color: #F948B2;
 }
 
-
+@media screen and (max-width:768px) {
+   .banner {flex-direction: column-reverse;
+      gap: 40px ;} 
+   .banner-text {
+         max-width: none;  
+      }
+   .banner-image-wrapper { 
+         max-width: none;
+         margin-top: 40px;
+      }
+      .gamer-section {
+         flex-direction: column;
+         
+      }
+      .gamer-img-wrapper { width: auto;}
+      .gamer-text-wrapper {max-width: none;
+         align-items: center;
+      justify-content: center;}
+      .gamer-title, .gamer-desc, .btn-primary, .gamer-purpose, .gamer-unleash {
+         text-align: center;
+      }
+      .card-section{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+      }
+      .games-play { 
+         flex-direction: column;
+         gap:30px;
+      }
+      .games-rectangle { 
+         margin: 0;
+      }
+      .games-rectangle { text-align: center;
+      max-width: none;}
+      .games-collection-2, .games-collection { text-align: center;}
+      
+}
 
 
 
@@ -431,30 +468,7 @@ max-width: 30%;
     flex-direction: column;
 }
 
-.banner {
-   flex-direction: column-reverse;
-   gap: 40px;
-}
-.banner-text {
-   max-width: none;  
-}
 
-.banner-image-wrapper { 
-   max-width: none;
-   margin-top: 40px;
-}
-
-.gamer-section {
-   flex-direction: column;
-   
-}
-.gamer-img-wrapper { width: auto;}
-.gamer-text-wrapper {max-width: none;
-   align-items: center;
-justify-content: center;}
-.gamer-title, .gamer-desc, .btn-primary, .gamer-purpose, .gamer-unleash {
-   text-align: center;
-}
 .card-section{
    display: grid;
    grid-template-columns: repeat(1, 1fr);
@@ -465,13 +479,3 @@ justify-content: center;}
 }
  }
 
- /* tab responsive */
-
- /*@media screen and (max-width:768px) {
-   .nav-container{
-      margin-left: 20px;
-      margin-right: 10px;
-      max-width: 50%;
-   }
-   
- }*/
