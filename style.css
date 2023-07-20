@@ -295,6 +295,11 @@ line-height: normal;
    align-items: center;
    gap: 100px;
 }
+.games-play-2{
+   display: flex;
+   align-items: center;
+   gap: 100px;
+}
 .games-image{
    margin-left: 90px;
    max-width: 70%;
@@ -420,7 +425,7 @@ max-width: 30%;
    border: 2px solid #F948B2 ;
    color: #F948B2;
 }
-
+.game-item-image{ width: 40%;}
 @media screen and (max-width:768px) {
    .banner {flex-direction: column-reverse;
       gap: 40px ;} 
@@ -450,12 +455,25 @@ max-width: 30%;
          flex-direction: column;
          gap:30px;
       }
+      .games-play-2 { 
+         flex-direction: column-reverse;
+         gap:30px;
+      }
       .games-rectangle { 
          margin: 0;
       }
       .games-rectangle { text-align: center;
       max-width: none;}
       .games-collection-2, .games-collection { text-align: center;}
+      .games-rectangle-2{max-width: none;
+      text-align: center;}
+      .games-career { flex-direction: column;}
+      .width-50, .games-career-image { max-width: none; }
+      .game-items-bg { background-position: bottom;
+      background-size: 100%;}
+      .games-items-1, .games-items-2, .games-items-3, .games-items-4, .games-items-5, .games-items-6, .games-items-7, .games-items-8, .games-items-9 {
+         width: 20%;
+      }
       
 }
 
@@ -476,6 +494,15 @@ max-width: 30%;
 .games-online{
    display: grid;
    grid-template-rows: repeat(nowrap);
+}
+.footer-list-items > ul, .footer-icon { 
+   display: grid;
+   grid-template-columns: repeat(3, 1fr) ;
+   
+}
+.footer-another-list > ul {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr) ;
 }
  }
 
