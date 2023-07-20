@@ -317,7 +317,7 @@ max-width: 30%;
    
 }
 .games-career-text{
-
+   display: flex;
 }
 .games-career-list{
    display: flex;
